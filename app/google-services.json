@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "171636695013",
+    "project_id": "timetableapp-6c962",
+    "storage_bucket": "timetableapp-6c962.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171636695013:android:fbaeb09b094298e509190c",
+        "android_client_info": {
+          "package_name": "com.example.timetabledimo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171636695013-6vim7767bckrlv553jhgnhvl1dj8a2ju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbt8AxRIdAsFSppVrVLd2bAl1_4HaqvsI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171636695013-6vim7767bckrlv553jhgnhvl1dj8a2ju.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

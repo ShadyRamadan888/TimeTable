@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/add_your_task_back"
+    tools:context=".AddOne"
+    android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar">
+
+    <Button
+        android:id="@+id/btn_add_one"
+        android:layout_width="223dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/btn_back"
+        android:backgroundTint="#F8F8F8"
+        android:inputType="text"
+        android:text="Add"
+        android:textColor="#694B9F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_timer1" />
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/textInputLayout2"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Day"
+        app:hintTextColor="#694B9F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout3">
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="none"
+            android:textColor="#694B9F" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+
+        android:id="@+id/textInputLayout3"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+
+        app:hintTextColor="#694B9F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout">
+
+        <EditText
+            android:id="@+id/edt_description_add"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|left"
+            android:hint="Description"
+            android:lines="5"
+            android:maxLines="10"
+            android:minLines="1"
+            android:scrollbars="none"
+            android:shadowColor="#694B9F"
+            android:textColor="#694B9F"
+            android:textColorHint="#694B9F"
+            android:textColorLink="#694B9F"
+            android:textCursorDrawable="@drawable/cursor"
+            android:theme="@style/line"></EditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="313dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="180dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+
+        app:hintTextColor="#694B9F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/edt_title_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:shadowColor="#694B9F"
+            android:textColor="#694B9F"
+            android:textColorHint="#694B9F"
+            android:textColorLink="#694B9F"
+            android:textCursorDrawable="@drawable/cursor"
+            android:theme="@style/line"></EditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/tv_timer1"
+        android:layout_width="313dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="24dp"
+        android:drawableStart="@drawable/ic_time"
+        android:drawablePadding="10dp"
+
+        android:background="@drawable/back_date"
+        android:hint="Select Date"
+        android:padding="10dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
