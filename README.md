@@ -1,11 +1,7 @@
 # TimeTable
 Login Screen
 
-<img src="https://user-images.githubusercontent.com/89228710/156817534-2ffd222a-f953-47ec-8f14-9ecb12c80601.jpg" width="300" height="600">
-
-Sign up screen 
-
-<img src="https://user-images.githubusercontent.com/89228710/156817861-78cecfae-5ccc-4125-9037-a1c691e484a2.jpg" width="300" height="600">
+<img src="https://user-images.githubusercontent.com/89228710/156817534-2ffd222a-f953-47ec-8f14-9ecb12c80601.jpg" width="300" height="600"> <img src="https://user-images.githubusercontent.com/89228710/156817861-78cecfae-5ccc-4125-9037-a1c691e484a2.jpg" width="300" height="600">
 
 Adding Task
 
