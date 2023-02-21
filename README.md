@@ -5,7 +5,7 @@ Login Screen
 
 Adding Task
 
-<img src="https://user-images.githubusercontent.com/89228710/156816370-142ea72f-709d-45c6-8a00-10dbf9ed62b2.jpg" width="300" height="600"> <img src="https://user-images.githubusercontent.com/89228710/156818222-f7029393-8a7d-47b9-9b73-2235285c0bc7.jpg" width="300" height="600">
+<img src="https://user-images.githubusercontent.com/89228710/156816370-142ea72f-709d-45c6-8a00-10dbf9ed62b2.jpg" width="400" height="700"> <img src="https://user-images.githubusercontent.com/89228710/156818222-f7029393-8a7d-47b9-9b73-2235285c0bc7.jpg" width="400" height="700">
 
 All Tasks
 
